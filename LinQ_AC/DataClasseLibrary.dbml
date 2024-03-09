@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Library_DB_AC" Class="DataClasseLibraryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.16.10.125;Initial Catalog=Library_DB_AC;Persist Security Info=True;User ID=sa" SettingsObjectName="LinQ_AC.My.MySettings" SettingsPropertyName="Library_DB_ACConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Publisher" Member="Publishers">
+    <Type Name="Publisher">
+      <Column Name="PublisherID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PublisherName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Publisher_Book" Member="Books" ThisKey="PublisherID" OtherKey="PublisherID" Type="Book" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="Student_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Year_Lvl" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Student_TransHeader" Member="TransHeaders" ThisKey="Student_ID" OtherKey="Student_ID" Type="TransHeader" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Book" Member="Books">
+    <Type Name="Book">
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BookName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ISBN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PublisherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_BookAccession" Member="BookAccessions" ThisKey="BookID" OtherKey="BookID" Type="BookAccession" />
+      <Association Name="Publisher_Book" Member="Publisher" ThisKey="PublisherID" OtherKey="PublisherID" Type="Publisher" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BookAccession" Member="BookAccessions">
+    <Type Name="BookAccession">
+      <Column Name="BookAccessionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccessionCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BookID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_BookAccession" Member="Book" ThisKey="BookID" OtherKey="BookID" Type="Book" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_Details" Member="View_Details">
+    <Type Name="View_Detail">
+      <Column Name="TransID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DateBorrowed" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StudentName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Year_Lvl" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BookName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ISBN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BookAccessionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PublisherName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DateToReturn" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ActualDateReturned" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TransHeader" Member="TransHeaders">
+    <Type Name="TransHeader">
+      <Column Name="TransID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateBorrowed" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Student_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Student_TransHeader" Member="Student" ThisKey="Student_ID" OtherKey="Student_ID" Type="Student" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SP_InsertTransactionDetails_New" Method="SP_InsertTransactionDetails_New">
+    <Parameter Name="iTransID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="iBookAccessionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="iBookID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="dDateToReturn" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="dActualDateReturn" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_InsertTrans" Method="SP_InsertTrans">
+    <Parameter Name="Date" Parameter="date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="StudID" Parameter="studID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

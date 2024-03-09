@@ -1,0 +1,107 @@
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.AssemblyReference.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+C:\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+C:\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+C:\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+C:\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.AssemblyReference.cache
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb
+C:\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Students.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.AssemblyReference.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Students.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.AssemblyReference.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Students.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old2\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.AssemblyReference.cache
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BookAss.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Students.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BookAss.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowDetails.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowHdr.resources
+D:\PROGRAMMER_TRAINING\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.SearchStudent.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowDetails.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowHdr.resources
+\\172.16.10.125\programmer_training\CLIENT_SERVER\LinQ_AC\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.SearchStudent.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe.config
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.exe
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.pdb
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\bin\Debug\LinQ_AC.xml
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbprojAssemblyReference.cache
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BookAss.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Books.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowDetails.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.BorrowHdr.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Image.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Main.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Pub.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.SearchStudent.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Students.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.Resources.resources
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.GenerateResource.cache
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.vbproj.CoreCompileInputs.cache
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.exe
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.xml
+D:\ACDC-VB\LinQ_AC Old\LinQ_AC\LinQ_AC\obj\Debug\LinQ_AC.pdb

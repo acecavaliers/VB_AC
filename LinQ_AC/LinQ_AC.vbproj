@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51785BB8-7D39-42C1-97E1-FBA58661F557}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LinQ_AC.My.MyApplication</StartupObject>
+    <RootNamespace>LinQ_AC</RootNamespace>
+    <AssemblyName>LinQ_AC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LinQ_AC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LinQ_AC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ClsAss.vb" />
+    <Compile Include="Classes\ClsBooks.vb" />
+    <Compile Include="Classes\ClsPublisher.vb" />
+    <Compile Include="Classes\ClsStudent.vb" />
+    <Compile Include="Classes\TRANSACTION.vb" />
+    <Compile Include="DataClasseLibrary.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasseLibrary.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasseLibrary.vb">
+      <DependentUpon>DataClasseLibrary.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\BookAss.Designer.vb">
+      <DependentUpon>BookAss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\BookAss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\Books.Designer.vb">
+      <DependentUpon>Books.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\Books.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\BorrowDetails.Designer.vb">
+      <DependentUpon>BorrowDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\BorrowDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\BorrowHdr.Designer.vb">
+      <DependentUpon>BorrowHdr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\BorrowHdr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\Image.Designer.vb">
+      <DependentUpon>Image.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\Image.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\Pub.Designer.vb">
+      <DependentUpon>Pub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\Pub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ConnectDB.vb" />
+    <Compile Include="Module\Forms\SearchStudent.Designer.vb">
+      <DependentUpon>SearchStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\SearchStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Forms\Students.Designer.vb">
+      <DependentUpon>Students.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Forms\Students.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Module\Forms\BookAss.resx">
+      <DependentUpon>BookAss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\Books.resx">
+      <DependentUpon>Books.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\BorrowDetails.resx">
+      <DependentUpon>BorrowDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\BorrowHdr.resx">
+      <DependentUpon>BorrowHdr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\Image.resx">
+      <DependentUpon>Image.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\Pub.resx">
+      <DependentUpon>Pub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\SearchStudent.resx">
+      <DependentUpon>SearchStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\Forms\Students.resx">
+      <DependentUpon>Students.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataClasseLibrary.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasseLibrary.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClasseLibrary.dbml.layout">
+      <DependentUpon>DataClasseLibrary.dbml</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09A3396-1-aspect-ratio-16-9-940x0-c-default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DT5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DT2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\important-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WARN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reading-page.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgrr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reading-page1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
